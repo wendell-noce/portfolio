@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    min-height: 100vh;
+
+    &__info-bar {
+        width: 290px;
+    }
+    &__content {
+        width: 100%;
+    }
+    &__menu {
+        width: 80px;
+    }
+}
