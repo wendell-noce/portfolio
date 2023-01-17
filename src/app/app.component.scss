@@ -1,16 +1,19 @@
+
+body {
+    background-color: #000;
+}
 .container {
-    display: flex;
-    justify-content: space-between;
     max-width: 1440px;
-    min-height: 100vh;
+    min-height: calc(100vh - 40px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
 
     &__info-bar {
-        width: 290px;
+        width: 310px;
     }
     &__content {
-        width: 100%;
+        width: calc(100% - 310px - 16px);
     }
-    &__menu {
-        width: 80px;
-    }
+
 }

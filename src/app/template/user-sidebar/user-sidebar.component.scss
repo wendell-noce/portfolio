@@ -1,0 +1,13 @@
+.user-sidebar {
+    margin: 16px;
+
+    &__box {
+        background-color: var(--global-dark);
+        border-bottom: 1px solid var(--color-primary);
+        padding-bottom: 8px;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}

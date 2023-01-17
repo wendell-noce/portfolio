@@ -1,0 +1,60 @@
+.skill-banner {
+    position: relative;
+    //background-image: url(../../../../../assets/images/skill-bg.jpg);
+    background: linear-gradient(45deg, #ffc107  50%,#191923 50%);
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 48px 0;
+    border-bottom: 2px solid var(--color-primary);
+
+    &__return {
+        background-color: transparent;
+        border: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        padding-right: 8px;
+        cursor: pointer;
+        span {
+            display: inline-flex;
+            align-items: center;
+            font-weight: 700;
+            font-size: 14px;
+            color: var(--color-primary);
+            position: relative;
+            z-index: 1;
+            transition: all .3s ease;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0px;
+            width: 100%;
+            height: 2px;
+            background-color: var(--color-primary);
+            transition: all .3s ease;
+            z-index: 0;
+        }
+
+        &:hover {
+            span {
+                color: var(--global-gray);
+            }
+
+            &:before {
+                height: calc(100% + 8px);
+            }
+        }
+    }
+
+    &__image{
+        position: relative;
+        z-index: 2;
+        text-align: center;
+    }
+}

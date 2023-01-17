@@ -1,0 +1,49 @@
+.avatar{
+    text-align: center;
+
+    &__header {
+        padding: 16px 0;
+        background-color: var(--global-gray);
+        border-bottom: 1px solid var(--color-primary);
+    }
+
+    &__infos {
+        padding: 16px 16px 0px;
+        p, span{
+            font-size: 14px;
+            margin: 0;
+            strong {
+                color: var(--color-primary);
+            }
+        }
+        p{
+            margin: 0 0 8px;
+        }
+    }
+
+    &__box-img {
+        margin: 16px auto;
+        border: 2px solid var(--color-primary);
+        width: 90px;
+        height: 90px;
+        border-radius: 100px;
+        overflow: hidden;
+
+        &__img {
+            max-width: 110%;
+        }
+    }
+
+    &__name {
+        margin: 0;
+        color: var(--color-primary);
+        font-size: 22px;
+    }
+
+    &__position {
+        font-size: 14px;
+        color: var(--color-gray);
+
+        margin: 8px 0 0;
+    }
+}

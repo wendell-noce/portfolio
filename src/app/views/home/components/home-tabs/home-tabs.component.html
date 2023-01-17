@@ -1,0 +1,115 @@
+<div class="tabs">
+    <mat-tab-group>
+
+        <mat-tab label="Sobre mim">
+            <ng-template matTabContent>
+                <div class="tabs__box">
+                    <div class="tabs__box__bg d-flex aling-items-center">
+                        <div class="tabs__text">
+                            <h3 class="tabs__text__title">
+                                Olá, sou Wendell Noce!
+                            </h3>
+                            <div class="tabs__text__desc">
+                                <p>
+                                    Nascido em Belo Horizonte - MG, apaixonado por
+                                    tecnologia e práticar de esportes como futebol.
+                                    Formado em Análise e Desenvolvimento de Sistemas
+                                    no UniBH, trabalho com desenvolvimento web a
+                                    mais de 12 anos. Meu foco é desenvolver produtos
+                                    web que proporcionem experiências para o
+                                    usuário.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tabs__image">
+                            <img
+                                src="/assets/images/sobre.jpg"
+                                alt=""
+                                class="tabs__image__img"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+        </mat-tab>
+
+        <mat-tab label="Habilidades">
+            <ng-template matTabContent>
+                <div class="tabs__box">
+                    <div class="tabs__box__bg">
+                        <app-skills-progress
+                        [label]="'HTML5'"
+                        [skill]="90"
+                    ></app-skills-progress>
+                    <app-skills-progress
+                        [label]="'CSS3'"
+                        [skill]="90"
+                    ></app-skills-progress>
+                    <app-skills-progress
+                        [label]="'JS'"
+                        [skill]="85"
+                    ></app-skills-progress>
+                    <app-skills-progress
+                        [label]="'ANGULAR'"
+                        [skill]="65"
+                        [path]="'/angular'"
+                    ></app-skills-progress>
+                    <app-skills-progress
+                        [label]="'WORDPRESS'"
+                        [skill]="90"
+                    ></app-skills-progress>
+                    <app-skills-progress
+                        [label]="'PHP'"
+                        [skill]="50"
+                    ></app-skills-progress>
+                    </div>
+                </div>
+            </ng-template>
+        </mat-tab>
+
+        <mat-tab label="Projetos">
+            <ng-template matTabContent>
+                <div class="tabs__cards d-flex">
+                    <app-card
+                        [title]="'Banco BS2'"
+                        [description]="
+                            'Portal web desenvolvido para atender as necessidades e transações financeiras dos clientes do banco. Baseado em Angular na versão 12 e Angular Material, com um Desing System próprio.'
+                        "
+                        [link]="'https://www.bancobs2.com.br/'"
+                    ></app-card>
+                    <app-card
+                        [title]="'Versiani Consulting'"
+                        [description]="
+                            'A Versini foi criada para apoiar empresas a atingirem suas metas de desenvolvimento sustentável definidas pelas Nações Unidas. Site desenvolvido em Wordpress, traduzido para 3 idiomas.'
+                        "
+                        [link]="'https://versianiconsulting.com/'"
+                    ></app-card>
+
+                    <app-card
+                        [title]="'Montebelo Condomínio Park'"
+                        [description]="
+                            'É um condomínio de apartamentos focados no conforto interno, com iluminação e ventilação natural em todos os cômodos. Site desenvolvido em Wordpress com todo o conteúdo gerenciável.'
+                        "
+                        [link]="'https://montebelosantaluzia.com.br/'"
+                    ></app-card>
+
+                    <app-card
+                        [title]="'Construtora MRV'"
+                        [description]="
+                            'MRV é a maior construtora da América Latina. A ampla experiência permite o planejamento do processo construtivo gerando o melhor relação custo-benefício do mercado.'
+                        "
+                        [link]="'https://www.mrv.com.br/'"
+                    ></app-card>
+
+                    <app-card
+                        [title]="'Construtora Caparaó'"
+                        [description]="
+                            'A Caparaó consolidou sua marca entre as principais construtoras de imóveis do Brasil ao aliar inovação, esmero na execução e tecnologia a um atendimento diferenciado.'
+                        "
+                        [link]="'https://caparao.com.br/'"
+                    ></app-card>
+                </div>
+            </ng-template>
+        </mat-tab>
+    </mat-tab-group>
+</div>

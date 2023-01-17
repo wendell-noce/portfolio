@@ -1,0 +1,66 @@
+.tabs{
+    .mat-tab-header {
+        margin-bottom: 32px;
+    }
+
+    .mat-tab-labels {
+        justify-content: space-around;
+
+        .mat-tab-label {
+            background-color: transparent;
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 0.1em;
+            opacity: 1;
+        }
+    }
+
+    .mat-ink-bar {
+        background-color: var(--color-primary) !important;
+    }
+
+    &__box {
+        justify-content: space-between;
+        &__bg {
+            background-color: var(--global-dark);
+            padding: 16px 0;
+        }
+    }
+
+    &__cards {
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    &__text {
+        width: 65%;
+        padding-left: 24px;
+
+        &__title {
+            font-size: 24px;
+            color: var(--text-color);
+            margin: 0 0 16px;
+        }
+
+        &__desc {
+            p {
+                font-size: 14px;
+                color: var(--color-gray);
+                line-height: 1.6;
+            }
+        }
+    }
+
+    &__image {
+        width: calc(35% - 32px);
+        margin-left: 24px;
+        &__img {
+            width: 300px;
+            height: 300px !important;
+            object-fit: cover;
+            border-radius: 100%;
+        }
+    }
+
+}

@@ -1,0 +1,33 @@
+.skill-progress {
+    padding: 0 24px;
+    cursor: pointer;
+
+    &__title{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--color-gray);
+        text-transform: uppercase;
+
+        margin-bottom: 8px;
+        span {
+            color: var(--color-gray);
+        }
+    }
+
+    &__box {
+        width: 100%;
+        background-color: var(--color-darkgray);
+    }
+    &__bar {
+        height: 4px;
+        background-color: var(--color-primary);
+        transition: all .3s ease;
+        display: block;
+        animation: progressAnimationStrike 6s;
+    }
+}
+
+@keyframes progressAnimationStrike {
+    from { width: 0 }
+}

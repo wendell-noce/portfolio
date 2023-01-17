@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Banco BS2",
+        "description": "Portal web desenvolvido para atender as necessidades e transações financeiras dos clientes do banco. Baseado em Angular na versão 12 e Angular Material, com um Desing System próprio.",
+        "link": "https://www.bancobs2.com.br/"
+    },
+    {
+        "name": "Versiani Consulting",
+        "description": "A Versini foi criada para apoiar empresas a atingirem suas metas de desenvolvimento sustentável definidas pelas Nações Unidas. Site desenvolvido em Wordpress, traduzido para 3 idiomas.",
+        "link": "https://versianiconsulting.com/"
+    },
+    {
+        "name": "Montebelo Condomínio Park",
+        "description": "É um condomínio de apartamentos focados no conforto interno, com iluminação e ventilação natural em todos os cômodos. Site desenvolvido em Wordpress com todo o conteúdo gerenciável.",
+        "link": "https://montebelosantaluzia.com.br/"
+    },
+    {
+        "name": "Construtora MRV",
+        "description": "MRV é a maior construtora da América Latina. A ampla experiência permite o planejamento do processo construtivo gerando o melhor relação custo-benefício do mercado.",
+        "link": "https://www.mrv.com.br/"
+    },
+    {
+        "name": "Construtora Caparaó",
+        "description": "A Caparaó consolidou sua marca entre as principais construtoras de imóveis do Brasil ao aliar inovação, esmero na execução e tecnologia a um atendimento diferenciado.",
+        "link": "https://caparao.com.br/"
+    }
+]

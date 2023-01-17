@@ -1,22 +1,13 @@
-<mat-sidenav-container>
-	<mat-sidenav #sidenav mode="side" position="end">
-        <app-nav-menu></app-nav-menu>
-    </mat-sidenav>
-	<mat-sidenav-content>
-		<div class="container">
-
-            <div class="container__info-bar">
-                sidebar
-            </div>
-
-            <div class="container__content">
-                content
-                <router-outlet></router-outlet>
-            </div>
-
-            <div class="container__menu">
-                <app-menu-button (closeSideNav)="sidenav.toggle()"></app-menu-button>
-            </div>
-		</div>
-	</mat-sidenav-content>
-</mat-sidenav-container>
+<main>
+    <div class="container">
+        <div class="container__info-bar">
+            <app-user-sidebar></app-user-sidebar>
+        </div>
+        <div class="container__content">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</main>
+<footer>
+    <app-footer></app-footer>
+</footer>

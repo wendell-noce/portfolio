@@ -1,0 +1,6 @@
+<div class="skill-progress" (click)="goTo(path)">
+    <h3 class="skill-progress__title d-flex justify-content-between"> {{label}} <span> {{skill}}% </span> </h3>
+    <div class="skill-progress__box">
+        <div class="skill-progress__bar" [style]="'width:' + skill +'%;'"></div>
+    </div>
+</div>

@@ -1,4 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(./app/shared/scss/variables.scss);
+
+// Font anti-aliasing
+* {
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+}
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: 'Montserrat', sans-serif;}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body,
+.page {
+    background-color: var(--color-darkgray);
+    @media (prefers-color-scheme: dark) {
+
+    }
+
+    p,span,label{
+        font-size: 16px;
+        color: var(--text-color);
+        margin: 0 0 8px;
+
+        @media (prefers-color-scheme: dark) {
+            color: var(--color-secondary);
+        }
+    }
+
+    img,
+    figure {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .d-flex {
+        display: flex;
+        width: 100%;
+
+        &.justify-content-around {
+            justify-content: space-around;
+        }
+
+        &.justify-content-between {
+            justify-content: space-between;
+        }
+
+        &.aling-items-center {
+            align-items: center;
+        }
+    }
+}
