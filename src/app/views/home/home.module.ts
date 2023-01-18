@@ -1,3 +1,4 @@
+import { TranslateModule } from '@ngx-translate/core';
 import { SharedModule } from './../../shared/shared.module';
 
 import { HomeRoutingModule } from './home-routing.module';
@@ -23,8 +24,8 @@ import { SkillsProgressComponent } from './components/skills-progress/skills-pro
     CommonModule,
     HomeRoutingModule,
     SharedModule,
-    MatTabsModule
-
+    MatTabsModule,
+    TranslateModule
   ]
 })
 export class HomeModule { }

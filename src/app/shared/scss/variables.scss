@@ -1,8 +1,19 @@
-:root {
+.dark{
+    --bg-color: #191923;
     --color-primary: #ffc107;
     --color-gray: #8c8c8e;
     --color-darkgray: #191923;
     --global-gray: #323232;
     --global-dark: #20202a;
+    --text-color: #fff;
+}
+
+.ligth{
+    --bg-color: #fff;
+    --color-primary: #292B86;
+    --color-gray: #1a1a1a;
+    --color-darkgray: #191923;
+    --global-gray: #cbc5c5;
+    --global-dark: #b3afaf;
     --text-color: #fff;
 }
