@@ -1,3 +1,4 @@
+import { TranslateModule } from '@ngx-translate/core';
 import { MatIconModule } from '@angular/material/icon';
 import { SkillsRoutingModule } from './skills-routing.module';
 import { NgModule } from '@angular/core';
@@ -15,7 +16,8 @@ import { SkillBannerComponent } from './components/skill-banner/skill-banner.com
   imports: [
     CommonModule,
     MatIconModule,
-    SkillsRoutingModule
+    SkillsRoutingModule,
+    TranslateModule
   ]
 })
 export class SkillsModule { }

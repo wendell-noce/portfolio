@@ -20,6 +20,8 @@ export class SkillsProgressComponent implements OnInit {
     }
 
     goTo(route:string) {
+        console.log(route);
+
         this._route.navigate([`/skill/${route}`]);
     }
 
