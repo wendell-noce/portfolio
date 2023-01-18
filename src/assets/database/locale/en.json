@@ -1,6 +1,20 @@
 {
+    "projectConfig": {
+        "labelCountry": "Country",
+        "labelCity": "City",
+        "labelAge": "Age",
+        "labelReturn": "Home",
+        "labelTabs": {
+            "about": "About me",
+            "skills": "Skills",
+            "projetcs": "Projects"
+        },
+        "labelButton": "Go to project",
+        "labelSeeMore": "See more",
+        "footerLabel": "© 2023 All rights reserved."
+    },
     "userConfig": {
-        "username": "Wendell Noce",
+        "username": "Wendell Cassio",
         "position": "Front-end Developer",
         "age": "36",
         "location": {
@@ -9,118 +23,122 @@
         },
         "languages": [
             {
-                "language": "Português",
-                "value": "85"
+                "language": "Portuguese",
+                "value": "85",
+                "locale": "br"
             },
             {
-                "language": "Inglês",
-                "value": "55"
+                "language": "English",
+                "value": "55",
+                "locale": "en"
             },
             {
-                "language": "Espanho",
-                "value": "75"
+                "language": "Spanish",
+                "value": "75",
+                "locale": "es"
             }
         ],
         "initialMessage": "Hi, Welcome!!",
-        "description": "Gosto de criar produtos front-end com ótimas experiências para o usuário."
+        "description": "I enjoy creating front-end products with great user experiences."
     },
     "about": {
-        "title": "Olá, sou Wendell Noce!",
-        "description": "Nascido em Belo Horizonte - MG, apaixonado por tecnologia e práticar de esportes como futebol. Formado em Análise e Desenvolvimento de Sistemas no UniBH, trabalho com desenvolvimento web a mais de 12 anos. Meu foco é desenvolver produtos web que proporcionem experiências para o usuário.",
+        "title": "Hi, I'm Wendell Cassio!",
+        "description": "Born in Belo Horizonte - MG, passionate about technology and playing sports like football. Graduated in Systems Analysis and Development at UniBH, I have been working with web development for over 12 years. My focus is to develop web products that provide user experiences.",
         "image": {
             "src": "/assets/images/sobre.jpg",
-            "alt": "Imagem de decoração"
+            "alt": "Decoration image"
         }
     },
     "skills": [
         {
             "id": 1,
-            "skillName": "HTML5",
+            "skillName": "html5",
             "skillValue": "85",
-            "description": "HTML5 (Hypertext Markup Language, versão 5) é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. É a quinta versão da linguagem HTML. Esta nova versão traz consigo importantes mudanças quanto ao papel do HTML no mundo da Web, através de novas funcionalidades como semântica e acessibilidade. Possibilita o uso de novos recursos antes possíveis apenas com a aplicação de outras tecnologias. Sua essência tem sido melhorar a linguagem com o suporte para as mais recentes multimídias, enquanto a mantém facilmente legível por seres humanos e consistentemente compreendida por computadores e outros dispositivos (navegadores, parsers etc). O HTML5 será o novo padrão para HTML, XHTML, e HTML DOM. Atualmente, está em fase de esboço, porém diversos navegadores já implementam algumas de suas funcionalidades.",
-            "logo": "/assets/images/logos/html5.svg"
+            "description": "HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard. It is maintained by the Web Hypertext Application Technology Working Group (WHATWG), a consortium of the major browser vendors (Apple, Google, Mozilla, and Microsoft).HTML5 was first released in a public-facing form on 22 January 2008, with a major update and 'W3C Recommendation' status in October 2014. Its goals were to improve the language with support for the latest multimedia and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices such as web browsers, parsers, etc., without XHTML's rigidity; and to remain backward-compatible with older software. HTML5 is intended to subsume not only HTML 4 but also XHTML 1 and DOM Level 2 HTML.HTML5 includes detailed processing models to encourage more interoperable implementations; it extends, improves, and rationalizes the markup available for documents and introduces markup and application programming interfaces (APIs) for complex web applications. For the same reasons, HTML5 is also a candidate for cross-platform mobile applications because it includes features designed with low-powered devices in mind.",
+            "logo": "/assets/images/logos/html5.svg",
+            "link": "https://en.wikipedia.org/wiki/html5"
         },
         {
             "id": 2,
-            "skillName": "CSS3",
+            "skillName": "css3",
             "skillValue": "85",
-            "description": "CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets (ou simplesmente CSS), pela qual se define estilos para um projeto web (página de internet). Com efeitos de transição, imagem, imagem de fundo/background e outros, pode-se criar estilos únicos para seus projetos web, alterando diversos aspectos de design no layout da página. A principal função do CSS3 é abolir as imagens de plano/Background de fundo, bordas arredondadas, apresentar transições e efeitos para criar animações de vários tipos, como um simples relógio de ponteiros.Isso se deve aos novos browsers/navegadores que estão chegando com suporte à essa linguagem, como o Google Chrome, Opera, Internet Explorer 9, Safari e Mozilla Firefox. Assim, o CSS3 facilitará o trabalho dos profissionais de front-end e também a utilização de sites pelos usuários.",
-            "logo": "/assets/images/logos/css3.svg"
-
+            "description": "Unlike CSS 2, which is a large single specification defining various features, CSS 3 is divided into several separate documents called 'modules'. Each module adds new capabilities or extends features defined in CSS 2, preserving backward compatibility. Work on CSS level 3 started around the time of publication of the original CSS 2 recommendation. The earliest CSS 3 drafts were published in June 1999.Due to the modularization, different modules have different stability and statuses.",
+            "logo": "/assets/images/logos/css3.svg",
+            "link": "https://en.wikipedia.org/wiki/css3"
         },
         {
             "id": 3,
-            "skillName": "Javascript",
+            "skillName": "javascript",
             "skillValue": "85",
-            "description": "JavaScript (frequentemente abreviado como JS) é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e funcional). Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. JavaScript permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.É atualmente a principal linguagem para programação client-side em navegadores web. É também bastante utilizada do lado do servidor através de ambientes como o node.js.",
-            "logo": "/assets/images/logos/javascript.svg"
-
+            "description": "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js.",
+            "logo": "/assets/images/logos/javascript.svg",
+            "link": "https://en.wikipedia.org/wiki/javascript"
         },
         {
             "id": 4,
-            "skillName": "Angular 2+",
+            "skillName": "angular",
             "skillValue": "65",
-            "description": "Angular (comumente referido como 'Angular 2+' ou 'Angular 2') é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de indivíduos e corporações. Angular é uma reescrita completa do AngularJS, feito pela mesma equipe que o construiu.",
-            "logo": "/assets/images/logos/angular.svg"
-
+            "description": "Angular (commonly referred to as 'Angular 2+' or 'Angular 2') is an open-source, front-end, TypeScript-based web application platform led by the Angular Team at Google and a community of individuals and corporations. Angular is a complete rewrite of AngularJS, made by the same team that built it.",
+            "logo": "/assets/images/logos/angular.svg",
+            "link": "https://en.wikipedia.org/wiki/angular"
         },
         {
             "id": 5,
-            "skillName": "Wordpress",
+            "skillName": "wordpress",
             "skillValue": "75",
-            "description": "WordPress é um sistema livre e aberto de gestão de conteúdo para internet (do inglês: Content Management System - CMS), baseado em PHP com banco de dados MySQL, executado em um servidor interpretador, voltado principalmente para a criação de páginas eletrônicas (sites) e blogs online. Criado a partir do extinto b2/cafelog, por Ryan Boren e Matthew Mullenweg, e distribuído gratuitamente sob a GNU General Public License.É uma das ferramentas mais utilizadas para conteúdo na web, disputando com o serviço do Google, chamado Blogger.No entanto, o WordPress é adotado por aqueles que queiram uma página com maior personalização e recursos diferenciais",
-            "logo": "/assets/images/logos/wordpress.png"
-
+            "description": "WordPress (WP or WordPress.org) is a free and open-source content management system (CMS) written in hypertext preprocessor language and paired with a MySQL or MariaDB database with supported HTTPS. Features include a plugin architecture and a template system, referred to within WordPress as 'Themes'. WordPress was originally created as a blog-publishing system but has evolved to support other web content types including more traditional mailing lists and Internet fora, media galleries, membership sites, learning management systems (LMS) and online stores. One of the most popular content management system solutions in use, WordPress is used by 42.8% of the top 10 million websites as of October 2021",
+            "logo": "/assets/images/logos/wordpress.png",
+            "link": "https://en.wikipedia.org/wiki/wordpress"
         },
         {
             "id": 6,
-            "skillName": "PHP",
+            "skillName": "php",
             "skillValue": "55",
-            "description": "PHP (um acrônimo recursivo para 'PHP: Hypertext Preprocessor', originalmente Personal Home Page) é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web. Figura entre as primeiras linguagens passíveis de inserção em documentos HTML, dispensando em muitos casos o uso de arquivos externos para eventuais processamentos de dados. O código é interpretado no lado do servidor pelo módulo PHP, que também gera a página web a ser visualizada no lado do cliente. A linguagem evoluiu, passou a oferecer funcionalidades em linha de comando, e além disso, ganhou características adicionais, que possibilitaram usos adicionais do PHP, não relacionados a web sites. É possível instalar o PHP na maioria dos sistemas operacionais, gratuitamente. Concorrente direto da tecnologia ASP pertencente à Microsoft, o PHP é utilizado em aplicações como o MediaWiki, Facebook, Drupal, Joomla!, WordPress, Magento e o Oscommerce.Criado por Rasmus Lerdorf em 1995, o PHP tem a produção de sua implementação principal, referência formal da linguagem, mantida por uma organização chamada The PHP Group. O PHP é software livre, licenciado sob a PHP License, uma licença incompatível com a GNU General Public License (GPL) devido a restrições no uso do termo PHP.",
-            "logo": "/assets/images/logos/php.svg"
-
+            "description": "PHP is a general-purpose scripting language geared toward web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. The PHP reference implementation is now produced by The PHP Group. PHP was originally an abbreviation of Personal Home Page, but it now stands for the recursive initialism PHP: Hypertext Preprocessor. PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or as a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code – which may be any type of data, such as generated HTML or binary image data – would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist which can be employed to orchestrate or facilitate the generation of that response. Additionally, PHP can be used for many programming tasks outside the web context, such as standalone graphical applications and robotic drone control. PHP code can also be directly executed from the command line.",
+            "logo": "/assets/images/logos/php.svg",
+            "link": "https://en.wikipedia.org/wiki/php"
         },
         {
             "id": 7,
-            "skillName": "Node",
+            "skillName": "node",
             "skillValue": "55",
-            "description": "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos. O runtime do Node.js é single-thread — uma única thread (chamada de Event Loop) é responsável por executar o código Javascript, sem a necessidade de criar novas threads, o que torna o código mais simples de manter.",
-            "logo": "/assets/images/logos/node.svg"
-
+            "description": "Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.Node.js lets developers use JavaScript to write command line tools and for server-side scripting. The functionality of running scripts server-side produces dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a 'JavaScript everywhere' paradigm,unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.Node.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in web applications with many input/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games)",
+            "logo": "/assets/images/logos/node.svg",
+            "link": "https://en.wikipedia.org/wiki/Node.js"
         },
         {
             "id": 8,
-            "skillName": "Git",
+            "skillName": "git",
             "skillValue": "55",
-            "description": "Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo (Exemplo: alguns livros digitais são disponibilizados no GitHub e escrito aos poucos publicamente). O Git foi inicialmente projetado e desenvolvido por Linus Torvalds para o desenvolvimento do kernel Linux, mas foi adotado por muitos outros projetos.Cada diretório de trabalho do Git é um repositório com um histórico completo e habilidade total de acompanhamento das revisões, não dependente de acesso a uma rede ou a um servidor central. O Git também facilita a reprodutibilidade científica em uma ampla gama de disciplinas, da ecologia à bioinformática, arqueologia à zoologia. O Git é um software livre, distribuído sob os termos da versão 2 da GNU General Public License. Sua manutenção é atualmente supervisionada por Junio Hamano.",
-            "logo": "/assets/images/logos/git.svg"
-
+            "description": "Git is a distributed version control system: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).Git was originally authored by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Since 2005, Junio Hamano has been the core maintainer. As with most other distributed version control systems, and unlike most client–server systems, every Git directory on every computer is a full-fledged repository with complete history and full version-tracking abilities, independent of network access or a central server. Git is free and open-source software distributed under the GPL-2.0-only license.",
+            "logo": "/assets/images/logos/git.svg",
+            "link": "https://en.wikipedia.org/wiki/Git"
         }
     ],
     "projects": [
         {
             "name": "Banco BS2",
-            "description": "Portal web desenvolvido para atender as necessidades e transações financeiras dos clientes do banco. Baseado em Angular na versão 12 e Angular Material, com um Desing System próprio.",
+            "description": "Web portal developed to meet the needs and financial transactions of bank customers. Based on Angular version 12 and Angular Material, with its own Design System.",
             "link": "https://www.bancobs2.com.br/"
         },
         {
             "name": "Versiani Consulting",
-            "description": "A Versini foi criada para apoiar empresas a atingirem suas metas de desenvolvimento sustentável definidas pelas Nações Unidas. Site desenvolvido em Wordpress, traduzido para 3 idiomas.",
+            "description": "Versini was created to support companies to achieve their sustainable development goals defined by the United Nations. Website developed in Wordpress, translated into 3 languages.",
             "link": "https://versianiconsulting.com/"
         },
         {
             "name": "Montebelo Condomínio Park",
-            "description": "É um condomínio de apartamentos focados no conforto interno, com iluminação e ventilação natural em todos os cômodos. Site desenvolvido em Wordpress com todo o conteúdo gerenciável.",
+            "description": "It is a condominium of apartments focused on indoor comfort, with natural lighting and ventilation in all rooms. Website developed in Wordpress with all content manageable.",
             "link": "https://montebelosantaluzia.com.br/"
         },
         {
             "name": "Construtora MRV",
-            "description": "MRV é a maior construtora da América Latina. A ampla experiência permite o planejamento do processo construtivo gerando o melhor relação custo-benefício do mercado.",
+            "description": "MRV is the largest construction company in Latin America. The extensive experience allows the planning of the construction process, generating the best cost-benefit ratio on the market.",
             "link": "https://www.mrv.com.br/"
         },
         {
             "name": "Construtora Caparaó",
-            "description": "A Caparaó consolidou sua marca entre as principais construtoras de imóveis do Brasil ao aliar inovação, esmero na execução e tecnologia a um atendimento diferenciado.",
+            "description": "Caparaó consolidated its brand among the main real estate builders in Brazil by combining innovation, care in execution and technology with a differentiated service.",
             "link": "https://caparao.com.br/"
         }
     ]

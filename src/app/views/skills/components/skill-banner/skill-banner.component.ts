@@ -27,10 +27,6 @@ export class SkillBannerComponent implements OnInit {
 
     ngOnInit(): void {
         const activeRoute = this._route.snapshot.params.skillname;
-        console.log(activeRoute);
-
         this.index = this.skills.indexOf(activeRoute);
-        console.log(this.index);
-
     }
 }

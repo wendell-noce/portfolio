@@ -4,13 +4,13 @@
             <img src="../../../assets/images/wendell--noce.png" alt="Wendell Noce" class="avatar__box-img__img">
         </div>
 
-        <h2 class="avatar__name"> Wendell Noce </h2>
-        <p class="avatar__position"> Front-end Developer </p>
+        <h2 class="avatar__name"> {{ 'userConfig.username' | translate }} </h2>
+        <p class="avatar__position"> {{ 'userConfig.position' | translate }}  </p>
     </div>
 
     <div class="avatar__infos">
-        <p class="d-flex justify-content-between"><strong> Páis: </strong><span> Brasil </span></p>
-        <p class="d-flex justify-content-between"><strong> Cidade: </strong> <span> Belo Horizonte </span> </p>
-        <p class="d-flex justify-content-between"><strong> Idade: </strong> <span> 36 </span> </p>
+        <p class="d-flex justify-content-between"><strong> {{ 'projectConfig.labelCountry' | translate }}  </strong><span> {{ 'userConfig.location.country' | translate }}</span></p>
+        <p class="d-flex justify-content-between"><strong> {{ 'projectConfig.labelCity' | translate }} </strong> <span> {{ 'userConfig.location.city' | translate }} </span> </p>
+        <p class="d-flex justify-content-between"><strong> {{ 'projectConfig.labelAge' | translate }} </strong> <span> {{ 'userConfig.age' | translate }} </span> </p>
     </div>
 </div>

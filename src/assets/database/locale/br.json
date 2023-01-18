@@ -1,7 +1,21 @@
 {
+    "projectConfig": {
+        "labelCountry": "País",
+        "labelCity": "Cidade",
+        "labelAge": "Idade",
+        "labelReturn": "Voltar",
+        "labelTabs": {
+            "about": "Sobre mim",
+            "skills": "Habilidades",
+            "projetcs": "Projetos"
+        },
+        "labelButton": "Conheça o projeot",
+        "labelSeeMore": "Conheça mais",
+        "footerLabel": "© 2023 Todos os direitos reservados."
+
+    },
     "userConfig": {
-        "theme": "darkMode",
-        "username": "Wendell Noce",
+        "username": "Wendell Cassio",
         "position": "Desenvolvedor Front-end",
         "age": "36",
         "location": {
@@ -11,22 +25,25 @@
         "languages": [
             {
                 "language": "Português",
-                "value": "85"
+                "value": "85",
+                "locale": "br"
             },
             {
                 "language": "Inglês",
-                "value": "55"
+                "value": "55",
+                "locale": "en"
             },
             {
-                "language": "Espanho",
-                "value": "75"
+                "language": "Espanhol",
+                "value": "75",
+                "locale": "es"
             }
         ],
         "initialMessage": "Olá, seja bem vindo!!",
         "description": "Gosto de criar produtos front-end com ótimas experiências para o usuário."
     },
     "about": {
-        "title": "Olá, sou Wendell Noce!",
+        "title": "Olá, sou Wendell Cassio!",
         "description": "Nascido em Belo Horizonte - MG, apaixonado por tecnologia e práticar de esportes como futebol. Formado em Análise e Desenvolvimento de Sistemas no UniBH, trabalho com desenvolvimento web a mais de 12 anos. Meu foco é desenvolver produtos web que proporcionem experiências para o usuário.",
         "image": {
             "src": "/assets/images/sobre.jpg",
@@ -36,66 +53,70 @@
     "skills": [
         {
             "id": 1,
-            "skillName": "HTML5",
+            "skillName": "html5",
             "skillValue": "85",
             "description": "HTML5 (Hypertext Markup Language, versão 5) é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet, originalmente proposto por Opera Software. É a quinta versão da linguagem HTML. Esta nova versão traz consigo importantes mudanças quanto ao papel do HTML no mundo da Web, através de novas funcionalidades como semântica e acessibilidade. Possibilita o uso de novos recursos antes possíveis apenas com a aplicação de outras tecnologias. Sua essência tem sido melhorar a linguagem com o suporte para as mais recentes multimídias, enquanto a mantém facilmente legível por seres humanos e consistentemente compreendida por computadores e outros dispositivos (navegadores, parsers etc). O HTML5 será o novo padrão para HTML, XHTML, e HTML DOM. Atualmente, está em fase de esboço, porém diversos navegadores já implementam algumas de suas funcionalidades.",
-            "logo": "/assets/images/logos/html5.svg"
+            "logo": "/assets/images/logos/html5.svg",
+            "link": "https://pt.wikipedia.org/wiki/html5"
         },
         {
             "id": 2,
-            "skillName": "CSS3",
+            "skillName": "css3",
             "skillValue": "85",
             "description": "CSS3 é a terceira mais nova versão das famosas Cascading Style Sheets (ou simplesmente CSS), pela qual se define estilos para um projeto web (página de internet). Com efeitos de transição, imagem, imagem de fundo/background e outros, pode-se criar estilos únicos para seus projetos web, alterando diversos aspectos de design no layout da página. A principal função do CSS3 é abolir as imagens de plano/Background de fundo, bordas arredondadas, apresentar transições e efeitos para criar animações de vários tipos, como um simples relógio de ponteiros.Isso se deve aos novos browsers/navegadores que estão chegando com suporte à essa linguagem, como o Google Chrome, Opera, Internet Explorer 9, Safari e Mozilla Firefox. Assim, o CSS3 facilitará o trabalho dos profissionais de front-end e também a utilização de sites pelos usuários.",
-            "logo": "/assets/images/logos/css3.svg"
+            "logo": "/assets/images/logos/css3.svg",
+            "link": "https://pt.wikipedia.org/wiki/css3"
 
         },
         {
             "id": 3,
-            "skillName": "Javascript",
+            "skillName": "javascript",
             "skillValue": "85",
             "description": "JavaScript (frequentemente abreviado como JS) é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma (protótipos, orientado a objeto, imperativo e funcional). Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web. JavaScript permite páginas da Web interativas e, portanto, é uma parte essencial dos aplicativos da web. A grande maioria dos sites usa, e todos os principais navegadores têm um mecanismo JavaScript dedicado para executá-lo.É atualmente a principal linguagem para programação client-side em navegadores web. É também bastante utilizada do lado do servidor através de ambientes como o node.js.",
-            "logo": "/assets/images/logos/javascript.svg"
+            "logo": "/assets/images/logos/javascript.svg",
+            "link": "https://pt.wikipedia.org/wiki/javascript"
 
         },
         {
             "id": 4,
-            "skillName": "Angular 2+",
+            "skillName": "angular",
             "skillValue": "65",
             "description": "Angular (comumente referido como 'Angular 2+' ou 'Angular 2') é uma plataforma de aplicações web de código-fonte aberto e front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de indivíduos e corporações. Angular é uma reescrita completa do AngularJS, feito pela mesma equipe que o construiu.",
-            "logo": "/assets/images/logos/angular.svg"
+            "logo": "/assets/images/logos/angular.svg",
+            "link": "https://pt.wikipedia.org/wiki/angular"
 
         },
         {
             "id": 5,
-            "skillName": "Wordpress",
+            "skillName": "wordpress",
             "skillValue": "75",
             "description": "WordPress é um sistema livre e aberto de gestão de conteúdo para internet (do inglês: Content Management System - CMS), baseado em PHP com banco de dados MySQL, executado em um servidor interpretador, voltado principalmente para a criação de páginas eletrônicas (sites) e blogs online. Criado a partir do extinto b2/cafelog, por Ryan Boren e Matthew Mullenweg, e distribuído gratuitamente sob a GNU General Public License.É uma das ferramentas mais utilizadas para conteúdo na web, disputando com o serviço do Google, chamado Blogger.No entanto, o WordPress é adotado por aqueles que queiram uma página com maior personalização e recursos diferenciais",
-            "logo": "/assets/images/logos/wordpress.png"
-
+            "logo": "/assets/images/logos/wordpress.png",
+            "link": "https://pt.wikipedia.org/wiki/wordpress"
         },
         {
             "id": 6,
-            "skillName": "PHP",
+            "skillName": "php",
             "skillValue": "55",
             "description": "PHP (um acrônimo recursivo para 'PHP: Hypertext Preprocessor', originalmente Personal Home Page) é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web. Figura entre as primeiras linguagens passíveis de inserção em documentos HTML, dispensando em muitos casos o uso de arquivos externos para eventuais processamentos de dados. O código é interpretado no lado do servidor pelo módulo PHP, que também gera a página web a ser visualizada no lado do cliente. A linguagem evoluiu, passou a oferecer funcionalidades em linha de comando, e além disso, ganhou características adicionais, que possibilitaram usos adicionais do PHP, não relacionados a web sites. É possível instalar o PHP na maioria dos sistemas operacionais, gratuitamente. Concorrente direto da tecnologia ASP pertencente à Microsoft, o PHP é utilizado em aplicações como o MediaWiki, Facebook, Drupal, Joomla!, WordPress, Magento e o Oscommerce.Criado por Rasmus Lerdorf em 1995, o PHP tem a produção de sua implementação principal, referência formal da linguagem, mantida por uma organização chamada The PHP Group. O PHP é software livre, licenciado sob a PHP License, uma licença incompatível com a GNU General Public License (GPL) devido a restrições no uso do termo PHP.",
-            "logo": "/assets/images/logos/php.svg"
-
+            "logo": "/assets/images/logos/php.svg",
+            "link": "https://pt.wikipedia.org/wiki/php"
         },
         {
             "id": 7,
-            "skillName": "Node",
+            "skillName": "node",
             "skillValue": "55",
-            "description": "Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos. O runtime do Node.js é single-thread — uma única thread (chamada de Event Loop) é responsável por executar o código Javascript, sem a necessidade de criar novas threads, o que torna o código mais simples de manter.",
-            "logo": "/assets/images/logos/node.svg"
-
+            "description": "O Node.js é um ambiente de servidor de plataforma cruzada e de código aberto que pode ser executado no Windows , Linux , Unix , macOS e muito mais. Node.js é um ambiente de tempo de execução de JavaScript de back-end , executado no V8 JavaScript Engine e executa o código JavaScript fora de um navegador da web .O Node.js permite que os desenvolvedores usem JavaScript para escrever ferramentas de linha de comando e para scripts do lado do servidor . A funcionalidade de execução de scripts do lado do servidor produz conteúdo de página da Web dinâmico antes que a página seja enviada ao navegador da Web do usuário. Conseqüentemente, Node.js representa um paradigma de 'JavaScript em todos os lugares', unificando o desenvolvimento de aplicativos da Web em torno de uma única linguagem de programação, em vez de linguagens diferentes para scripts do lado do servidor e do lado do cliente.Node.js tem uma arquitetura orientada a eventos capaz de I/O assíncrono . Essas escolhas de design visam otimizar o rendimento e a escalabilidade em aplicativos da Web com muitas operações de entrada/saída, bem como para aplicativos da Web em tempo real (por exemplo, programas de comunicação em tempo real e jogos de navegador ).",
+            "logo": "/assets/images/logos/node.svg",
+            "link": "https://pt.wikipedia.org/wiki/Node.js"
         },
         {
             "id": 8,
-            "skillName": "Git",
+            "skillName": "git",
             "skillValue": "55",
             "description": "Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo (Exemplo: alguns livros digitais são disponibilizados no GitHub e escrito aos poucos publicamente). O Git foi inicialmente projetado e desenvolvido por Linus Torvalds para o desenvolvimento do kernel Linux, mas foi adotado por muitos outros projetos.Cada diretório de trabalho do Git é um repositório com um histórico completo e habilidade total de acompanhamento das revisões, não dependente de acesso a uma rede ou a um servidor central. O Git também facilita a reprodutibilidade científica em uma ampla gama de disciplinas, da ecologia à bioinformática, arqueologia à zoologia. O Git é um software livre, distribuído sob os termos da versão 2 da GNU General Public License. Sua manutenção é atualmente supervisionada por Junio Hamano.",
-            "logo": "/assets/images/logos/git.svg"
-
+            "logo": "/assets/images/logos/git.svg",
+            "link": "https://pt.wikipedia.org/wiki/git"
         }
     ],
     "projects": [

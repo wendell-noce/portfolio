@@ -29,20 +29,28 @@
             background-color: var(--global-dark);
             padding: 16px 0;
         }
+
+        .display {
+            @media (min-width: 992px) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
     }
 
     &__cards {
         flex-wrap: wrap;
         gap: 24px;
+        justify-content: center;
     }
 
     &__text {
-        width: 65%;
-        padding-left: 24px;
+        padding-left: 12px;
 
         &__title {
             font-size: 24px;
-            color: var(--text-color);
+            color: var(--light-title);
             margin: 0 0 16px;
         }
 
@@ -53,17 +61,28 @@
                 line-height: 1.6;
             }
         }
+
+        @media (min-width: 992px) {
+            width: 65%;
+            padding-left: 24px;
+        }
     }
 
     &__image {
-        width: calc(35% - 32px);
-        margin-left: 24px;
+        width: 100%;
+        text-align: center;
         &__img {
             width: 300px;
             height: 300px !important;
             object-fit: cover;
             border-radius: 100%;
         }
+
+        @media (min-width: 992px) {
+            margin-left: 24px;
+            width: calc(35% - 32px);
+        }
     }
+
 
 }

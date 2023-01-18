@@ -5,9 +5,11 @@
 
     <div class="user-sidebar__box">
         <div class="d-flex justify-content-around">
-            <app-user-languages [percentage]="'80'" [language]="'Portugês'"></app-user-languages>
-            <app-user-languages [percentage]="'45'" [language]="'Inglês'"></app-user-languages>
-            <app-user-languages [percentage]="'60'" [language]="'Espanhol'"></app-user-languages>
+            <app-user-languages
+            *ngFor="let item of 'userConfig.languages' | translate "
+                [percentage]="item.value"
+                [language]="item.language"
+                [locale]="item.locale"></app-user-languages>
         </div>
     </div>
 

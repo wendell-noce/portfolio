@@ -1,6 +1,4 @@
 .home-banner {
-    display: flex;
-    justify-content: flex-start;
     margin-bottom: 16px;
     border-bottom: 2px solid var(--color-primary);
 
@@ -32,9 +30,13 @@
         z-index: 2;
 
         h2 {
-            font-size: 48px;
+            font-size: 38px;
             color: var(--color-primary);
             margin: 0 0 16px;
+
+            @media (min-width: 992px) {
+                font-size: 48px;
+            }
         }
 
         .desc {
@@ -42,11 +44,15 @@
             justify-content: flex-start;
             p{
                 border-right: 0.15em solid var(--color-primary);
-                white-space: nowrap;
-                overflow: hidden;
-                animation: typing 3s steps(60, end),
-                blink-caret 0.5s step-end infinite;
+
                 margin-bottom: 24px;
+
+                @media (min-width: 992px) {
+                    white-space: nowrap;
+                    overflow: hidden;
+                    animation: typing 3s steps(60, end),
+                    blink-caret 0.5s step-end infinite;
+                }
             }
         }
     }

@@ -8,12 +8,24 @@
     margin: 0 auto;
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 
     &__info-bar {
-        width: 310px;
+        width: 100%;
+        order: 2;
+
+        @media (min-width: 767px) {
+            width: 310px;
+            order: 1
+        }
     }
     &__content {
-        width: calc(100% - 310px - 16px);
+        width: 100%;
+        order: 1;
+        @media (min-width: 767px) {
+            width: calc(100% - 310px - 16px);
+            order: 2
+        }
     }
 
 }

@@ -1,3 +1,4 @@
+import { TranslateModule } from '@ngx-translate/core';
 import { UserSidebarComponent } from './user-sidebar/user-sidebar.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -23,7 +24,8 @@ import { MatIconModule } from '@angular/material/icon';
     ],
     imports: [
         CommonModule,
-        MatIconModule
+        MatIconModule,
+        TranslateModule
     ],
     exports: [
         MenuButtonComponent,

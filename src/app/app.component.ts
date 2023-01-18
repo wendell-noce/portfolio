@@ -16,8 +16,8 @@ export class AppComponent {
         public _translate: TranslateService,
         private _userService: UserService
         ) {
-        _translate.addLangs(['en', 'br']);
-        _translate.setDefaultLang('en');
+        _translate.addLangs(['en', 'br', 'es']);
+        _translate.setDefaultLang('br');
     }
 
     ngOnInit(){
